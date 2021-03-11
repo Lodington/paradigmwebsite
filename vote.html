@@ -33,7 +33,7 @@
                         <li><a href="rules.html"><i class="fa fa-info-circle"></i> Rules</a></li>
                         <li><a href="staff.html"><i class="fa fa-star"></i> Staff</a></li>
                         <li class="active"><a href="vote.html"><i class="fa fa-check"></i> Vote</a></li>
-                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Shop</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#myModal" ><i class="fa fa-shopping-cart"></i> Shop</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -42,40 +42,7 @@
             <!-- /.container -->
         </nav>
             <div class="container">
-			<h1 class="page-header">Vote</h1>
-				<div id="carousel-example-generic" interval="pause" class="carousel slide" data-ride="carousel">
-				  <!-- Indicators -->
-				  <ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				  </ol>
-
-				  <!-- Wrapper for slides -->
-				  <div class="carousel-inner" role="listbox">
-					<div class="item active">
-					  <iframe class="vote-item" src="http://www.serverpact.com/vote-1"></iframe>
-					  <div class="carousel-caption">
-						<h3 class="vote-name">Xtrada voter</h3>
-					  </div>
-					</div>
-					<div class="item">
-					  <iframe class="vote-item" src="http://www.serverpact.com/vote-1"></iframe>
-					  <div class="carousel-caption">
-						<h3 class="vote-name">Xtrada voter</h3>
-					  </div>
-					</div>
-				  </div>
-
-				  <!-- Controls -->
-				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				  </a>
-				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				  </a>
-				</div>
+			<h1 class="page-header">Vote (Coming Soon...)</h1>
 				<hr />
 				<div class="row">
 					<div class="col-md-3">
@@ -111,5 +78,24 @@
         <!-- JavaScript -->
         <script src="assets/js/jquery-1.10.2.js"></script>
         <script src="assets/js/bootstrap.js"></script>
+		<div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+          
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Notice!</h4>
+                </div>
+                <div class="modal-body">
+                  <p>The Donation Shop is currently down for maintance!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+          
+            </div>
+          </div>
     </body>
 </html>
